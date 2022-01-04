@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        title="Arknights Time Manager"
+        meta(content="text/html;charset=utf-8", http-equiv="Content-Type")
+        meta(content="utf-8", http-equiv="encoding")
+        link(rel="stylesheet", href="style.sss")
+    body(class="background")
+        div(class="main")
+            form(id="timer_form" class="form")
+                fieldset(class="timer_form")
+                    div
+                        label(for="stamina")="Stamina"
+                        input(type="number" name="stamina" id="stamina" placeholder="Stamina" min=0 max=900 step=1)
+                        label(for="max_stamina")="Max"
+                        input(type="number" name="max_stamina" id="max_stamina" placeholder="Max Stamina", min=82 max=900 step=1)
+                        button(id="timer_set" disabled)="Set"
+                    div(class="timer_form_content")
+                        label="Recovery at"
+                        label(id="recovery_at")=""
+
+        script(type="module", src="index.js")

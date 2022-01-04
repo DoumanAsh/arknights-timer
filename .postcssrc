@@ -1,0 +1,8 @@
+{
+    "parser": "sugarss",
+    "plugins": {
+        "postcss-import": true,
+        "postcss-nesting": true,
+        "autoprefixer": true
+    }
+}

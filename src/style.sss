@@ -1,0 +1,36 @@
+html
+    height: 100%
+    box-sizing: border-box
+
+input:invalid
+    border: 2px solid red
+
+input:valid
+    border: 2px solid black
+
+.main
+    display: flex
+    justify-content: center
+
+.background
+    height: 100%
+    background-image: url('img/bridge.png')
+    /* Center and scale the image nicely */
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+.timer_form
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    align-content: space-between
+    justify-content: space-between
+    gap: 1em
+
+.timer_form_content
+    display: flex
+    justify-content: space-between
+
+.hidden
+    display: none !important

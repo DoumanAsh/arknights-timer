@@ -1,0 +1,29 @@
+{
+  "name": "arknights-timer",
+  "version": "1.0.0",
+  "description": "Arknights time management tool",
+  "author": "Douman",
+  "repository": "https://github.com/DoumanAsh/arknights-timer",
+  "license": "BSL-1.0",
+  "browserslist": [
+    "Last 2 versions",
+    "ie 11"
+  ],
+  "source": "src/index.pug",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "lint": "eslint . --ext .js --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.0.1",
+    "@parcel/transformer-sugarss": "^2.0.1",
+    "autoprefixer": "^10.4.1",
+    "eslint": "8",
+    "parcel": "2",
+    "postcss": "^8.4.5",
+    "postcss-import": "^14.0.2",
+    "postcss-nesting": "^10.1.1",
+    "purecss": "^2.0.6"
+  }
+}

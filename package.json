@@ -12,7 +12,7 @@
   "source": "src/index.pug",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "build": "parcel build --public-url .",
     "lint": "eslint . --ext .js --ignore-path .gitignore"
   },
   "devDependencies": {
